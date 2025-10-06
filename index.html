@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="app">
+        <header class="app-header">
+            <h1>Notes</h1>
+        </header>
+
+        <div class="layout">
+            <aside class="nav" aria-label="Primary navigation">
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-item active" data-section="all">All Notes</li>
+                        <li class="nav-item" data-section="favorites">Favorites</li>
+                        <li class="nav-item" data-section="tags">Tags</li>
+                        <li class="nav-item" data-section="settings">Settings</li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="app-main" id="mainContent">
+                <p class="hint">This page uses <code>style.css</code> and <code>main.js</code>. Open the console to see the script run.</p>
+            </main>
+        </div>
+
+        <footer id="footer" class="app-footer"></footer>
+    </div>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
